@@ -24,4 +24,9 @@ class Subproducts extends Model
     {
        return $this->belongsToMany(Size::class,'product_sizes');
     }
+
+    public function users()
+    {
+       return $this->belongsToMany(User::class,'favoraites');
+    }
 }

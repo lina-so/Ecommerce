@@ -28,6 +28,13 @@ Auth::routes();
 // );
 // Route::resource('product', App\Http\Controllers\ProductController::class);
 
+
+// Route::resource('liked', App\Http\Controllers\FavoraiteController::class);
+
+// Route::resource('orderr',App\Http\Controllers\OrderController::class);
+// Route::get('/search1',[App\Http\Controllers\SearchController::class,'result']);
+
+
 //lina 
 Route::get("/{page}", [AdminController::class, 'index']);
 
